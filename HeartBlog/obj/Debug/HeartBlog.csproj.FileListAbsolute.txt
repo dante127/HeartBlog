@@ -1,0 +1,288 @@
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\ApplicationInsights.config
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\roslyn\csc.exe
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\roslyn\System.Collections.Immutable.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\roslyn\vbc.exe
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\roslyn\VBCSCompiler.exe
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\roslyn\VBCSCompiler.exe.config
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\HeartBlog.dll.config
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\HeartBlog.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\HeartBlog.pdb
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Antlr3.Runtime.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\EntityFramework.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\EntityFramework.SqlServer.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.AI.Web.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.AI.WindowsServer.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.ApplicationInsights.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.Owin.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Google.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.Web.Infrastructure.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Newtonsoft.Json.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Owin.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\System.Net.Http.Formatting.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\System.Web.Helpers.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\System.Web.Http.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\System.Web.Http.WebHost.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\System.Web.Mvc.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\System.Web.Optimization.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\System.Web.Razor.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\System.Web.WebPages.Deployment.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\System.Web.WebPages.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\System.Web.WebPages.Razor.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\WebGrease.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.AI.Web.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.AI.WindowsServer.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.ApplicationInsights.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\System.Web.Helpers.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\System.Web.Mvc.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\System.Web.Optimization.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\System.Web.Razor.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\System.Web.WebPages.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\System.Web.WebPages.Deployment.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\System.Web.WebPages.Razor.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Antlr3.Runtime.pdb
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Newtonsoft.Json.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\System.Net.Http.Formatting.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\System.Web.Http.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\System.Web.Http.WebHost.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\EntityFramework.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\EntityFramework.SqlServer.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.Owin.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Google.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\obj\Debug\HeartBlog.csprojResolveAssemblyReference.cache
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\obj\Debug\HeartBlog.dll
+c:\users\dante\documents\visual studio 2015\Projects\HeartBlog\HeartBlog\obj\Debug\HeartBlog.pdb
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\ApplicationInsights.config
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\roslyn\csc.exe
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\roslyn\System.Collections.Immutable.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\roslyn\System.Reflection.Metadata.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\roslyn\vbc.exe
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\roslyn\VBCSCompiler.exe
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\roslyn\VBCSCompiler.exe.config
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\HeartBlog.dll.config
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\HeartBlog.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\HeartBlog.pdb
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Antlr3.Runtime.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\CaptchaMvc.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\EntityFramework.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\EntityFramework.SqlServer.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.AI.DependencyCollector.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.AI.Web.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.AI.WindowsServer.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.ApplicationInsights.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.Owin.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Google.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.Web.Infrastructure.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Newtonsoft.Json.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Owin.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\System.Net.Http.Formatting.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\System.Web.Helpers.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\System.Web.Http.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\System.Web.Http.WebHost.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\System.Web.Mvc.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\System.Web.Optimization.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\System.Web.Razor.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\System.Web.WebPages.Deployment.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\System.Web.WebPages.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\System.Web.WebPages.Razor.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\WebGrease.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\CaptchaMvc.pdb
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\CaptchaMvc.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.AI.DependencyCollector.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.AI.Web.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.AI.WindowsServer.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.ApplicationInsights.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\System.Web.Helpers.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\System.Web.Mvc.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\System.Web.Optimization.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\System.Web.Razor.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\System.Web.WebPages.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\System.Web.WebPages.Deployment.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\System.Web.WebPages.Razor.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Antlr3.Runtime.pdb
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Newtonsoft.Json.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\System.Net.Http.Formatting.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\System.Web.Http.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\System.Web.Http.WebHost.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\EntityFramework.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\EntityFramework.SqlServer.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.Owin.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Google.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\obj\Debug\HeartBlog.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\obj\Debug\HeartBlog.pdb
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\obj\Debug\HeartBlog.csprojResolveAssemblyReference.cache
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\PagedList.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\PagedList.Mvc.dll
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\PagedList.xml
+D:\Master\MWS\F19\AWP\hw\first\HeartBlog\HeartBlog\bin\PagedList.Mvc.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\ApplicationInsights.config
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\roslyn\csc.exe
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\roslyn\System.Collections.Immutable.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\roslyn\System.Reflection.Metadata.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\roslyn\vbc.exe
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\roslyn\VBCSCompiler.exe
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\roslyn\VBCSCompiler.exe.config
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\HeartBlog.dll.config
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\HeartBlog.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\HeartBlog.pdb
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Antlr3.Runtime.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\CaptchaMvc.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\EntityFramework.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\EntityFramework.SqlServer.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.AI.DependencyCollector.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.AI.Web.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.AI.WindowsServer.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.ApplicationInsights.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.Owin.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Google.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.Web.Infrastructure.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Newtonsoft.Json.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Owin.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\PagedList.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\PagedList.Mvc.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\System.Net.Http.Formatting.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\System.Web.Helpers.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\System.Web.Http.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\System.Web.Http.WebHost.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\System.Web.Mvc.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\System.Web.Optimization.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\System.Web.Razor.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\System.Web.WebPages.Deployment.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\System.Web.WebPages.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\System.Web.WebPages.Razor.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\WebGrease.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\CaptchaMvc.pdb
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\CaptchaMvc.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.AI.DependencyCollector.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.AI.Web.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.AI.WindowsServer.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.ApplicationInsights.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\PagedList.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\PagedList.Mvc.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\System.Web.Helpers.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\System.Web.Mvc.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\System.Web.Optimization.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\System.Web.Razor.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\System.Web.WebPages.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\System.Web.WebPages.Deployment.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\System.Web.WebPages.Razor.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Antlr3.Runtime.pdb
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Newtonsoft.Json.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\System.Net.Http.Formatting.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\System.Web.Http.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\System.Web.Http.WebHost.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\EntityFramework.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\EntityFramework.SqlServer.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.Owin.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Google.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\obj\Debug\HeartBlog.csprojResolveAssemblyReference.cache
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\obj\Debug\HeartBlog.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\obj\Debug\HeartBlog.pdb
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Autofac.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\CKSource.CKFinder.Connector.Core.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\CKSource.FileSystem.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\ImageProcessor.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\Autofac.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\CKSource.CKFinder.Connector.Core.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\CKSource.FileSystem.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\ImageProcessor.xml
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\CKFinder.dll
+D:\Master project backup\AWP\final\HeartBlog\HeartBlog\bin\CKFinder.pdb

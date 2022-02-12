@@ -1,0 +1,58 @@
+﻿@model HeartBlog.Models.consult
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>consult</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.history)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.history)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.body)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.body)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.answer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.answer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.user.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.user.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

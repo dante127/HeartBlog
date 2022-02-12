@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Heart_blogModelStoreContainer" CdmEntityContainer="Heart_blogEntities">
+    <EntitySetMapping Name="categories">
+      <EntityTypeMapping TypeName="Heart_blogModel.category">
+        <MappingFragment StoreEntitySet="category">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="comments">
+      <EntityTypeMapping TypeName="Heart_blogModel.comment">
+        <MappingFragment StoreEntitySet="comment">
+          <ScalarProperty Name="user_id" ColumnName="user_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="body" ColumnName="body" />
+          <ScalarProperty Name="post_id" ColumnName="post_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="posts">
+      <EntityTypeMapping TypeName="Heart_blogModel.post">
+        <MappingFragment StoreEntitySet="post">
+          <ScalarProperty Name="numofvisitor" ColumnName="numofvisitor" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Body" ColumnName="Body" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="shortBody" ColumnName="shortBody" />
+          <ScalarProperty Name="image" ColumnName="image" />
+          <ScalarProperty Name="cat_id" ColumnName="cat_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="Heart_blogModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="consults">
+      <EntityTypeMapping TypeName="Heart_blogModel.consult">
+        <MappingFragment StoreEntitySet="consult">
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+          <ScalarProperty Name="answer" ColumnName="answer" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="body" ColumnName="body" />
+          <ScalarProperty Name="history" ColumnName="history" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="Heart_blogModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

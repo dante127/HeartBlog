@@ -1,0 +1,94 @@
+﻿@model IPagedList<HeartBlog.Models.consult>
+
+@{
+    ViewBag.Title = "Index";
+}
+@using PagedList.Mvc;
+@using PagedList;
+<style>
+    .ul.pagination {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+
+    ul.pagination li {
+        display: inline;
+    }
+
+        ul.pagination li a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: background-color .3s;
+        }
+
+            ul.pagination li a.active {
+                background-color: #4CAF50;
+                color: white;
+            }
+
+            ul.pagination li a:hover:not(.active) {
+                background-color: #ddd;
+            }
+</style>
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.First().history)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().body)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().answer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().DateTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().user.Name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.history)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.body)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.answer)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.user.Name)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id })
+        </td>
+    </tr>
+}
+
+</table>
+<div id="container" style="margin-left: 20px">
+    <p></p>
+    <p></p>
+    <div class="pagination" style="margin-left: 400px">
+        Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)
+        of @Model.PageCount   @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+    </div>
+</div>

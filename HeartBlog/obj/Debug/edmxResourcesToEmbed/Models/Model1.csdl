@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Heart_blogModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="posts" Relationship="Self.FK_post_post" FromRole="category" ToRole="post" />
+  </EntityType>
+  <EntityType Name="comment">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateTime" Type="DateTime" Precision="0" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="body" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="post_id" Type="Int32" />
+    <NavigationProperty Name="post" Relationship="Self.FK_comment_post" FromRole="comment" ToRole="post" />
+    <Property Name="user_id" Type="Int32" />
+    <NavigationProperty Name="user" Relationship="Heart_blogModel.FK_comment_user" FromRole="comment" ToRole="user" />
+  </EntityType>
+  <EntityType Name="post">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Body" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="DateTime" Type="DateTime" Precision="0" />
+    <Property Name="title" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="shortBody" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="image" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="cat_id" Type="Int32" />
+    <NavigationProperty Name="category" Relationship="Self.FK_post_post" FromRole="post" ToRole="category" />
+    <NavigationProperty Name="comments" Relationship="Self.FK_comment_post" FromRole="post" ToRole="comment" />
+    <Property Name="numofvisitor" Type="Int32" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Age" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="phone" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="comments" Relationship="Heart_blogModel.FK_comment_user" FromRole="user" ToRole="comment" />
+    <NavigationProperty Name="consults" Relationship="Heart_blogModel.FK_consult_user" FromRole="user" ToRole="consult" />
+  </EntityType>
+  <Association Name="FK_post_post">
+    <End Role="category" Type="Self.category" Multiplicity="0..1" />
+    <End Role="post" Type="Self.post" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="post">
+        <PropertyRef Name="cat_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_comment_post">
+    <End Role="post" Type="Self.post" Multiplicity="0..1" />
+    <End Role="comment" Type="Self.comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="post">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="comment">
+        <PropertyRef Name="post_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Heart_blogEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="categories" EntityType="Self.category" />
+    <EntitySet Name="comments" EntityType="Self.comment" />
+    <EntitySet Name="posts" EntityType="Self.post" />
+    <EntitySet Name="users" EntityType="Self.user" />
+    <AssociationSet Name="FK_post_post" Association="Self.FK_post_post">
+      <End Role="category" EntitySet="categories" />
+      <End Role="post" EntitySet="posts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_comment_post" Association="Self.FK_comment_post">
+      <End Role="post" EntitySet="posts" />
+      <End Role="comment" EntitySet="comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_comment_user" Association="Heart_blogModel.FK_comment_user">
+      <End Role="user" EntitySet="users" />
+      <End Role="comment" EntitySet="comments" />
+    </AssociationSet>
+    <EntitySet Name="consults" EntityType="Heart_blogModel.consult" />
+    <EntitySet Name="sysdiagrams" EntityType="Heart_blogModel.sysdiagram" />
+    <AssociationSet Name="FK_consult_user" Association="Heart_blogModel.FK_consult_user">
+      <End Role="user" EntitySet="users" />
+      <End Role="consult" EntitySet="consults" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK_comment_user">
+    <End Type="Heart_blogModel.user" Role="user" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Heart_blogModel.comment" Role="comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="comment">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="consult">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="history" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="body" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="userid" Type="Int32" />
+    <Property Name="answer" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="DateTime" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="user" Relationship="Heart_blogModel.FK_consult_user" FromRole="consult" ToRole="user" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_consult_user">
+    <End Type="Heart_blogModel.user" Role="user" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Heart_blogModel.consult" Role="consult" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="consult">
+        <PropertyRef Name="userid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

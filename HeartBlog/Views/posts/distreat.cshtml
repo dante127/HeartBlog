@@ -1,0 +1,275 @@
+﻿@model IPagedList<HeartBlog.Models.post>
+
+@using PagedList.Mvc;
+@using PagedList;
+<style>
+    .ul.pagination {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+
+    ul.pagination li {
+        display: inline;
+    }
+
+        ul.pagination li a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: background-color .3s;
+        }
+
+            ul.pagination li a.active {
+                background-color: #4CAF50;
+                color: white;
+            }
+
+            ul.pagination li a:hover:not(.active) {
+                background-color: #ddd;
+            }
+</style>
+   <!-- bradcam_area_start  -->
+<div class="bradcam_area breadcam_bg bradcam_overlay">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="bradcam_text">
+                    <h3>disease treatment</h3>
+                    <p><a href="@Url.Action("index","posts")">Home /</a> distreat</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- bradcam_area_end  -->
+
+
+
+<!-- offers_area_start -->
+<div class="our_department_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="section_title text-center mb-55">
+                    <h3>Our Articles</h3>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+          
+
+            @foreach (var i in Model)
+            {
+            <!--element-->
+            <div class="col-xl-4 col-md-6 col-lg-4">
+                <div class="single_department">
+                    <div class="department_thumb">
+                        <img src="~/@i.image" alt="ss">
+                    </div>
+                    <div class="department_content">
+                        <h3><a href="#">@i.title</a></h3>
+                        <p>@i.shortBody</p>
+                        <a href="@Url.Action("P_detials","posts",new { id=i.Id} )" class="learn_more">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--End of an element-->
+            }
+
+
+
+        </div>
+    </div>
+    <!--Paging-->
+    <nav class="blog-pagination justify-content-center d-flex">
+        <ul class="pagination">
+
+
+            <li class="page-item">
+                @Html.PagedListPager(Model, page => Url.Action("Index", new { page, @class = "pagination" }))
+
+            </li>
+        </ul>
+    </nav>
+    <!---->
+</div>
+<!-- offers_area_end -->
+<!-- testmonial_area_start -->
+<div class="testmonial_area">
+    <div class="testmonial_active owl-carousel">
+        <div class="single-testmonial testmonial_bg_1 overlay2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-10 offset-xl-1">
+                        <div class="testmonial_info text-center">
+                            <div class="quote">
+                                <i class="flaticon-straight-quotes"></i>
+                            </div>
+                            <p>
+                                Heart diseases are symptoms of the heart
+                                , and there are many types of heart diseases such as coronary heart disease, enlarged heart, heart attacks, <br>
+                                heart attacks, arrhythmias and atrial fibrillation
+                            </p>
+                            <div class="testmonial_author">
+                                <h4>Asana Korim</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="single-testmonial testmonial_bg_2 overlay2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-10 offset-xl-1">
+                        <div class="testmonial_info text-center">
+                            <div class="quote">
+                                <i class="flaticon-straight-quotes"></i>
+                            </div>
+                            <p>
+                                Do Your Part, Care for Your Heart" is a great reminder.<br>
+                            </p>
+                            <div class="testmonial_author">
+                                <h4>Asana Korim</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="single-testmonial testmonial_bg_1 overlay2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-10 offset-xl-1">
+                        <div class="testmonial_info text-center">
+                            <div class="quote">
+                                <i class="flaticon-straight-quotes"></i>
+                            </div>
+                            <p>
+                                Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor <br>
+                                sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.
+                                <br>
+                                Fusce ac mattis nulla. Morbi eget ornare dui.
+                            </p>
+                            <div class="testmonial_author">
+                                <h4>Asana Korim</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- testmonial_area_end -->
+<!-- business_expert_area_start  -->
+<div class="business_expert_area">
+    <div class="business_tabs_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <ul class="nav" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                               aria-selected="true">Heart info</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+                               aria-selected="false">heart disease</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+                               aria-selected="false">Heart Healthy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="border_bottom">
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+                    <div class="row align-items-center">
+                        <div class="col-xl-6 col-md-6">
+                            <div class="business_info">
+                                <div class="icon">
+                                    <i class="flaticon-first-aid-kit"></i>
+                                </div>
+                                <h3>Information about the heart in the human body</h3>
+                                <p>
+                                    The heart is approximately the size of a fist
+                                    The weight of the heart is approximately 250-300 grams
+                                    - The number of heart beats is approximately 100,000 beats per day (average 3 billion beats in life)
+                                    The adult heart beats at 60-80 beats per minute
+                                    The heart of newborns ranges between 70-190 beats per minute
+                                    The heart pumps about 5.7 liters of blood daily to all parts of the body
+                                    The heart is located slightly in the center of the chest, to the left
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-md-6">
+                            <div class="business_thumb">
+                                <img src="img/heart.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="row align-items-center">
+                        <div class="col-xl-6 col-md-6">
+                            <div class="business_info">
+                                <div class="icon">
+                                    <i class="flaticon-first-aid-kit"></i>
+                                </div>
+                                <h3>The most common symptom of heart disease</h3>
+                                <p>
+                                    Angina is the most prominent symptom of heart disease and there are some other symptoms that can affect coronary heart patients such as,
+                                    shortness of breath, arrhythmia and acceleration, weakness, dizziness, sweating and nausea
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-md-6">
+                            <div class="business_thumb">
+                                <img src="img/heartD.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="row align-items-center">
+                        <div class="col-xl-6 col-md-6">
+                            <div class="business_info">
+                                <div class="icon">
+                                    <i class="flaticon-first-aid-kit"></i>
+                                </div>
+                                <h3>Live Healthy, Stay Young at Heart</h3>
+                                <p>
+                                    No matter one’s age, we can work to keep our hearts youthful. How?
+                                    As the Centers for Disease Control and Prevention (CDC) says,
+                                    "you can make your heart younger by making changes that reduce your risk.<br />
+                                    So, the quote: "Live Healthy, Stay Young at Heart" is great for encouraging others to make smart choices and improve their heart health
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-md-6">
+                            <div class="business_thumb">
+                                <img src="img/heartHe.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- business_expert_area_end  -->

@@ -1,0 +1,90 @@
+﻿@model HeartBlog.Models.post
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>post</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Body)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Body)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.shortBody)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.shortBody)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.image)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.image)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.cat_id)
+        </dt>
+
+        @{
+            var selectList = new SelectList(
+                new List<SelectListItem>
+                {
+            new SelectListItem {Text = "Heartinfo", Value = "1"},
+            new SelectListItem {Text = "Disease Diagnosis", Value = "2"},
+            new SelectListItem {Text = "Disease Treatment", Value = "3"},
+            new SelectListItem {Text = "Living With Disease", Value = "4"},
+            new SelectListItem {Text = "patients food", Value = "5"},
+
+                }, "Value", "Text");
+        }
+
+
+
+        <dd>
+            @Html.DisplayFor(m=>m.cat_id)
+          
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.numofvisitor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.numofvisitor)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

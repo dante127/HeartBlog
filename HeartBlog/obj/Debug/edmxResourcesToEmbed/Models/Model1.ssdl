@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Heart_blogModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="comment">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateTime" Type="date" />
+    <Property Name="name" Type="varchar" MaxLength="50" />
+    <Property Name="email" Type="varchar" MaxLength="150" />
+    <Property Name="body" Type="varchar" MaxLength="255" />
+    <Property Name="post_id" Type="int" />
+    <Property Name="user_id" Type="int" />
+  </EntityType>
+  <EntityType Name="consult">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="history" Type="varchar(max)" />
+    <Property Name="body" Type="varchar(max)" />
+    <Property Name="userid" Type="int" />
+    <Property Name="answer" Type="varchar(max)" />
+    <Property Name="DateTime" Type="date" />
+  </EntityType>
+  <EntityType Name="post">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Body" Type="varchar(max)" />
+    <Property Name="DateTime" Type="date" />
+    <Property Name="title" Type="varchar" MaxLength="100" />
+    <Property Name="shortBody" Type="varchar(max)" />
+    <Property Name="image" Type="varchar" MaxLength="200" />
+    <Property Name="cat_id" Type="int" />
+    <Property Name="numofvisitor" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Age" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="phone" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="gender" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_comment_post">
+    <End Role="post" Type="Self.post" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="comment" Type="Self.comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="post">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="comment">
+        <PropertyRef Name="post_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_comment_user">
+    <End Role="user" Type="Self.user" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="comment" Type="Self.comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="comment">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_consult_user">
+    <End Role="user" Type="Self.user" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="consult" Type="Self.consult" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="consult">
+        <PropertyRef Name="userid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_post_post">
+    <End Role="category" Type="Self.category" Multiplicity="0..1" />
+    <End Role="post" Type="Self.post" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="post">
+        <PropertyRef Name="cat_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Heart_blogModelStoreContainer">
+    <EntitySet Name="category" EntityType="Self.category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="comment" EntityType="Self.comment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="consult" EntityType="Self.consult" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="post" EntityType="Self.post" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="user" EntityType="Self.user" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_comment_post" Association="Self.FK_comment_post">
+      <End Role="post" EntitySet="post" />
+      <End Role="comment" EntitySet="comment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_comment_user" Association="Self.FK_comment_user">
+      <End Role="user" EntitySet="user" />
+      <End Role="comment" EntitySet="comment" />
+    </AssociationSet>
+    <AssociationSet Name="FK_consult_user" Association="Self.FK_consult_user">
+      <End Role="user" EntitySet="user" />
+      <End Role="consult" EntitySet="consult" />
+    </AssociationSet>
+    <AssociationSet Name="FK_post_post" Association="Self.FK_post_post">
+      <End Role="category" EntitySet="category" />
+      <End Role="post" EntitySet="post" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,112 @@
+﻿@model HeartBlog.Models.post
+  <!-- bradcam_area_start  -->
+<div class="bradcam_area breadcam_bg bradcam_overlay">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="bradcam_text">
+                    <h3>Post detials</h3>
+                    <p><a href="index.html">Home /</a> P_detials</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- bradcam_area_end  -->
+<!--================Blog Area =================-->
+<section class="blog_area single-post-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 posts-list">
+                <div class="single-post">
+                    <div class="feature-img">
+                        <img class="img-fluid" src="~/@ViewData["img"] " alt="ss">
+                    </div>
+                    <div class="blog_details">
+                        <h2>
+                        
+                           @ViewData["ti"]
+                      
+                        </h2>
+                     
+                      
+                      
+                     @Html.Raw(Model.Body)
+                        
+                     
+
+                    </div>
+                </div>
+                <div class="navigation-top">
+                  
+                  
+                </div>
+            
+                <div class="comments-area">
+                    <h4>@ViewBag.size Comments</h4>
+                    <div class="comment-list">
+                        <div class="single-comment justify-content-between d-flex">
+                            <div class="user justify-content-between d-flex">
+                                <div class="thumb">
+                                    <img src="img/comment/comment_1.png" alt="">
+                                </div>
+                                <div class="desc">
+                                  
+                                    @foreach (var i in ViewBag.com)
+                                    {
+                                      <p class="comment">
+                                          @i.body
+                                    </p>
+
+                                    <div class="d-flex justify-content-between">
+                                        <div class="d-flex align-items-center">
+                                            <h5>
+                                                <a href="#">@i.name</a>
+                                            </h5>
+                                            <p class="date">December 4, 2017 at 3:12 pm </p>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+
+                @if (Session["Login"]==null)
+                {
+                    <h2 style="color:red">you must login to leave a comment</h2>
+                }
+                else
+                {
+
+                <div class="comment-form">
+                    <h4>Leave a Reply</h4>
+                    <form class="form-contact comment_form" action="#"  method="post"  id="commentForm">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control w-100" name="comment" id="comment" cols="30" rows="9"
+                                              placeholder="Write Comment"></textarea>
+                                    <input type="hidden" value="@ViewData["ii"]" name="postid" />
+                                </div>
+                            </div>
+                        
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="button button-contactForm btn_1 boxed-btn">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+                }
+            </div>
+               
+
+        </div>
+    </div>
+</section>
+<!--================ Blog Area end =================-->
+
